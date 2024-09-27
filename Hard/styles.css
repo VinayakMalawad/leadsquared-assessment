@@ -1,0 +1,40 @@
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+}
+
+#image-list {
+  margin-top: 20px;
+}
+
+
+.card {
+  margin: 20px auto;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+#loading, #error-message {
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
